@@ -16,9 +16,11 @@ export const interceptorInterceptor: HttpInterceptorFn = (request, next) => {
   const http = inject(HttpClient);
   const url = enviroment.urlApi + 'auth/refresh';
 
+   
+
   let authRequest = request;
 
- 
+  
   if (token) {
     authRequest = request.clone({
       headers: request.headers.set('Authorization', `Bearer ${token}`)
