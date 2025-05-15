@@ -2,6 +2,7 @@
 # Movieflix - Frontend
 
 Frontend to Movieflix backend api.
+[Movieflix](https://github.com/JoaoMarion/Movieflix)
 
 ## Installation
 
